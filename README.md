@@ -10,7 +10,7 @@
 [![Accuracy](https://img.shields.io/badge/Model%20Accuracy-99.32%25-2d6a4f?style=for-the-badge)](/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-[🌐 Live Demo](https://YOUR_USERNAME.github.io/crop-recommendation-app) · [📡 API](https://crop-recommendation-api.onrender.com) · [📓 Notebook](notebooks/Agriculture_Production_Optimization_Engine.ipynb)
+[🌐 Live Demo](https://Pranali3016.github.io/Agriculture-Optimization-Engine) · [📡 API](https://crop-recommendation-api.onrender.com) · [📓 Notebook](notebooks/Agriculture_Production_Optimization_Engine.ipynb)
 
 </div>
 
@@ -138,6 +138,8 @@ GitHub Pages (frontend)  +  Render.com (Flask API)  +  GitHub Actions (CI/CD)
     accuracy                           0.9932       440
    macro avg        0.998     0.998    0.998        440
 ```
+
+> ⚠️ **Overfitting Note:** The 99.32% accuracy looks impressive but should be interpreted with caution. The dataset is perfectly balanced (exactly 100 samples per crop) and follows clean, well-separated distributions — making classification easier than real-world conditions. The test set is drawn from the same synthetic distribution as training, so it does not represent true out-of-sample performance on messy field sensor data. The model has likely overfit this dataset. To improve generalization, consider k-fold cross-validation, collecting diverse real-world samples, or adding stronger regularization.
 
 ---
 
@@ -361,7 +363,6 @@ B.E. — Artificial Intelligence & Data Science (2024)
 VPKBIET Baramati · CGPA: 8.19
 
 - 📄 **IEEE Published** — Indian Sign Language Interpreter using LSTM (96.25% accuracy) — MITADTSoCiCon 2024  
-- ©️ **Government of India Copyright Registration**  
 - 💼 Ex-Associate Software Engineer @ Test Yantra (Python ML pipelines)  
 - 🔭 Currently building: Generative AI · Agentic AI · LangGraph systems  
 
