@@ -8,7 +8,7 @@
 [![Flask](https://img.shields.io/badge/Flask-3.0-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![Accuracy](https://img.shields.io/badge/Model%20Accuracy-99.32%25-2d6a4f?style=for-the-badge)](/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
 
 [🌐 Live Demo](https://Pranali3016.github.io/Agriculture-Optimization-Engine) · [📡 API](https://crop-recommendation-api.onrender.com) · [📓 Notebook](notebooks/Agriculture_Production_Optimization_Engine.ipynb)
 
