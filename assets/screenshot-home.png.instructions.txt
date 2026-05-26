@@ -1,0 +1,10 @@
+HOW TO ADD REAL SCREENSHOTS:
+
+1. Run the project locally (python app.py + open index.html)
+2. Take a screenshot of the home page
+3. Save it as: assets/screenshot-home.png
+4. Take a screenshot showing a prediction result
+5. Save it as: assets/screenshot-result.png
+6. Run: git add assets/ && git commit -m "Add screenshots" && git push
+
+Until then, the README table will show broken image links — that is fine.
